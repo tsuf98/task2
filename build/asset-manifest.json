@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/task2/static/css/main.b91d8736.chunk.css",
+    "main.js": "/task2/static/js/main.97c76247.chunk.js",
+    "main.js.map": "/task2/static/js/main.97c76247.chunk.js.map",
+    "runtime-main.js": "/task2/static/js/runtime-main.05e08779.js",
+    "runtime-main.js.map": "/task2/static/js/runtime-main.05e08779.js.map",
+    "static/css/2.d8cc42e8.chunk.css": "/task2/static/css/2.d8cc42e8.chunk.css",
+    "static/js/2.82ef6e5e.chunk.js": "/task2/static/js/2.82ef6e5e.chunk.js",
+    "static/js/2.82ef6e5e.chunk.js.map": "/task2/static/js/2.82ef6e5e.chunk.js.map",
+    "index.html": "/task2/index.html",
+    "precache-manifest.5ea4e9e9e674e58efbc930b16059c9da.js": "/task2/precache-manifest.5ea4e9e9e674e58efbc930b16059c9da.js",
+    "service-worker.js": "/task2/service-worker.js",
+    "static/css/2.d8cc42e8.chunk.css.map": "/task2/static/css/2.d8cc42e8.chunk.css.map",
+    "static/css/main.b91d8736.chunk.css.map": "/task2/static/css/main.b91d8736.chunk.css.map",
+    "static/media/semantic.min.css": "/task2/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e08779.js",
+    "static/css/2.d8cc42e8.chunk.css",
+    "static/js/2.82ef6e5e.chunk.js",
+    "static/css/main.b91d8736.chunk.css",
+    "static/js/main.97c76247.chunk.js"
+  ]
+}

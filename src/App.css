@@ -1,0 +1,194 @@
+.App-logo {
+  height: 40vmin;
+}
+
+.App {
+  /* text-align: center; */
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.black p {
+  color: #282c34;
+}
+
+.w80 {
+  width: 80% !important;
+  margin: 4% auto !important;
+}
+
+.compare {
+  color: black;
+  border-top: 10px solid rgb(62, 132, 165);
+  background: rgb(226, 241, 248);
+  box-shadow: 0 -1px -2px rgb(126, 149, 160);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  right:0;
+padding: 15px;}
+
+.spacy {
+  margin: 30px;
+  position: absolute;
+  top: 10%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.home {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.meta {
+  font-size: 14px;
+  color: grey !important;
+}
+
+.plus-one {
+  border: #dddddd 2px dashed;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+
+
+.doc {
+  width: fit-content;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(126, 149, 160);
+}
+
+.control {
+  width: 70%;
+  margin: 0 auto 20px;
+  text-align: center;
+  height: 75px;
+}
+
+.flex {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+
+.control-input {
+  width: 60%;
+}
+
+.err {
+  font-size: 14px;
+  color: rgb(255, 82, 82);
+}
+
+.grey {
+  color: grey;
+}
+
+.gold {
+  color: gold;
+}
+
+.company-logo {
+  margin: 0 5px;
+  height: 30px;
+}
+
+.control * {
+  margin: 5px;
+}
+
+/* button {
+  background-color: #09d3ac;
+  color: white;
+  font-size: 1.1rem;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px rgba(80,80,80,0.5);
+  margin: 5px; 
+  cursor: pointer;
+} */
+/* 
+button:hover {
+  background-color: #15977d;
+} */
+
+/* input {
+  font-size: 1.1rem;
+  padding: 5px;
+  border: 1px grey solid;
+  border-radius: 5px;
+  width: 30vw;
+  /* box-shadow: 5px 2px 5px rgba(80,80,80,0.5); */
+  /* margin: 5px;  */
+/* } */
+
+.result h1 {
+  color: #282c34;
+}
+
+.result div {
+display: inline-table;
+vertical-align: middle;
+padding: 5px;
+}
+
+
+
+.dotted {
+border: grey 3px dashed;
+height: 50vh;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.dotted:after {
+  content: 'Use the search bar to add a new company to the dashboard :)';
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+@media screen and (max-width: 370px) {
+  .control {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .dotted:after {
+    content: 'Search & add a new company :)';
+    padding: 3%;
+    line-height: 2rem;
+  }
+}
+
+
+
+  
