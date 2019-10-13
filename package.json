@@ -1,5 +1,6 @@
 {
   "name": "public",
+  "homepage": "https://tsuf98.github.io/task2/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,6 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://tsuf98.github.io/task2"
+  }
 }
