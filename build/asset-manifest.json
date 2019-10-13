@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/task2/static/css/main.b91d8736.chunk.css",
+    "main.css": "/task2/static/css/main.0c62397c.chunk.css",
     "main.js": "/task2/static/js/main.cdf69d4e.chunk.js",
     "main.js.map": "/task2/static/js/main.cdf69d4e.chunk.js.map",
     "runtime-main.js": "/task2/static/js/runtime-main.05e08779.js",
@@ -9,17 +9,17 @@
     "static/js/2.ef611259.chunk.js": "/task2/static/js/2.ef611259.chunk.js",
     "static/js/2.ef611259.chunk.js.map": "/task2/static/js/2.ef611259.chunk.js.map",
     "index.html": "/task2/index.html",
-    "precache-manifest.81f3143b7f88071ca3fa22412f95648a.js": "/task2/precache-manifest.81f3143b7f88071ca3fa22412f95648a.js",
+    "precache-manifest.40236da24f3088d65975925b4e9b930c.js": "/task2/precache-manifest.40236da24f3088d65975925b4e9b930c.js",
     "service-worker.js": "/task2/service-worker.js",
     "static/css/2.d8cc42e8.chunk.css.map": "/task2/static/css/2.d8cc42e8.chunk.css.map",
-    "static/css/main.b91d8736.chunk.css.map": "/task2/static/css/main.b91d8736.chunk.css.map",
+    "static/css/main.0c62397c.chunk.css.map": "/task2/static/css/main.0c62397c.chunk.css.map",
     "static/media/semantic.min.css": "/task2/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.05e08779.js",
     "static/css/2.d8cc42e8.chunk.css",
     "static/js/2.ef611259.chunk.js",
-    "static/css/main.b91d8736.chunk.css",
+    "static/css/main.0c62397c.chunk.css",
     "static/js/main.cdf69d4e.chunk.js"
   ]
 }
