@@ -43,7 +43,6 @@
 }
 
 .charts {
-    transition: opacity .8s ease-out;
     height: 92vh;
 }
 

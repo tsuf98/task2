@@ -21,7 +21,7 @@ class Compare extends Component {
         return (<div className="compare"
             style={
                 {
-                    maxHeight: this.state.showComperation ? '100vh' : (window.innerWidth / window.innerHeight > 1? '10vw' : '10vh' ),
+                    maxHeight: this.state.showComperation ? '100vh' : '80px',
                     overflowY: this.state.showComperation ? 'auto' : 'hidden',
                     bottom: this.state.cancel ? '-100vh' : '0'
                 }
@@ -46,17 +46,13 @@ class Compare extends Component {
             }
 
             
-                <div className="charts" style={
-                {
-                    opacity: this.state.showComperation ? '1' : '0',
-                }}>
+                 {this.state.showComperation && <div className="charts">
                     <Button className="ui right floated"
                         onClick={this.cancel.bind(this)} > < Icon name="delete" /> close </Button>
-                    <br/>
-
+                        <br/>
                     <CompaniesChart list={this.props.list} /> <div/>
             
-        </div></div>);
+                 </div>}</div>);
     }
 }
 
