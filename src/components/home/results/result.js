@@ -23,7 +23,7 @@ const connectedResult = (props) => {
 
     
 
-    const { company, isStarred, removeCompany, isCompared } = props;
+    const { company, isStarred, removeCompany, isCompared, compareBetween } = props;
     return (<div className="card">
         <div className="content">
             <div className="right floated meta pointer">
@@ -39,7 +39,7 @@ const connectedResult = (props) => {
             <div className="flex">
                 <i className={'star icon ' + (isStarred ? 'gold' : 'grey')} onClick={toggleStar.bind(this, company.id)} />
                 <Link to={"/company/" + company.id}>More Info</Link>
-                <Button color={isCompared ? 'green' : null} onClick={toggleCompare.bind(this, company.id)}>Compare</Button>
+                <Button color={isCompared ? 'green' : null} onClick={toggleCompare.bind(this, company.id)} disabled={compareBetween.length > 5 && !isCompared}>Compare</Button>
             </div>
         </div>
     </div>)
@@ -55,6 +55,12 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-const Result = connect(null, mapDispatchToProps)(connectedResult);
+const mapStateToProps = state => {
+    return {
+        compareBetween: state.compareBetween
+    }
+}
+
+const Result = connect(mapStateToProps, mapDispatchToProps)(connectedResult);
 
 export default Result;
