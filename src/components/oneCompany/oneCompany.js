@@ -17,7 +17,7 @@ const OneCompany = (props) => {
         </h1>
         <p>{company.description}</p>
         {company.category.industry && <p className="meta"><i className="suitcase icon"></i> {company.category.industry}</p>}
-        <Statistic.Group size={window.innerWidth < 768 ? "small" : null}>
+        <Statistic.Group size={window.innerWidth < 768 ? "tiny" : null}>
             {company.metrics.marketCap && <Statistic>
                 <Statistic.Value>{Math.round(company.metrics.marketCap / 1000000) + 'M'}</Statistic.Value>
                 <Statistic.Label><Icon name='money bill alternate outline' />Market Cap</Statistic.Label>
